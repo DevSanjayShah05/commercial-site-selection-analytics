@@ -1,0 +1,111 @@
+{
+  "release": "ACS 2024 5-year",
+  "demographics_source": "US Census ACS 5-year via Census Reporter API",
+  "competitor_source": "OpenStreetMap Overpass API",
+  "geography": "ZIP Code Tabulation Areas (ZCTA)",
+  "coverage": [
+    {
+      "metro": "austin",
+      "label": "Austin, TX",
+      "bbox": [
+        30.1,
+        -97.95,
+        30.55,
+        -97.55
+      ],
+      "counties": [
+        "48453",
+        "48491"
+      ],
+      "zctas": 49,
+      "competitors_total": 1686,
+      "competitors_mapped": 1200
+    },
+    {
+      "metro": "denver",
+      "label": "Denver, CO",
+      "bbox": [
+        39.58,
+        -105.18,
+        39.92,
+        -104.75
+      ],
+      "counties": [
+        "08031",
+        "08005",
+        "08059",
+        "08001"
+      ],
+      "zctas": 64,
+      "competitors_total": 3408,
+      "competitors_mapped": 1200
+    },
+    {
+      "metro": "nashville",
+      "label": "Nashville, TN",
+      "bbox": [
+        35.98,
+        -87.0,
+        36.36,
+        -86.58
+      ],
+      "counties": [
+        "47037"
+      ],
+      "zctas": 29,
+      "competitors_total": 707,
+      "competitors_mapped": 707
+    },
+    {
+      "metro": "charlotte",
+      "label": "Charlotte, NC",
+      "bbox": [
+        35.05,
+        -81.05,
+        35.43,
+        -80.62
+      ],
+      "counties": [
+        "37119"
+      ],
+      "zctas": 30,
+      "competitors_total": 1192,
+      "competitors_mapped": 1192
+    },
+    {
+      "metro": "phoenix",
+      "label": "Phoenix, AZ",
+      "bbox": [
+        33.3,
+        -112.32,
+        33.72,
+        -111.85
+      ],
+      "counties": [
+        "04013"
+      ],
+      "zctas": 71,
+      "competitors_total": 2559,
+      "competitors_mapped": 1200
+    },
+    {
+      "metro": "tampa",
+      "label": "Tampa, FL",
+      "bbox": [
+        27.82,
+        -82.62,
+        28.12,
+        -82.28
+      ],
+      "counties": [
+        "12057",
+        "12103"
+      ],
+      "zctas": 32,
+      "competitors_total": 832,
+      "competitors_mapped": 832
+    }
+  ],
+  "total_zctas": 275,
+  "total_competitors_mapped": 6331
+}

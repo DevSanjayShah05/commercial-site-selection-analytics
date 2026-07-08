@@ -25,6 +25,7 @@ interface MapViewProps {
 // Free, keyless, no-token raster basemap (OpenStreetMap data via CARTO).
 const BASEMAP_STYLE: maplibregl.StyleSpecification = {
   version: 8,
+  glyphs: "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   sources: {
     carto: {
       type: "raster",
